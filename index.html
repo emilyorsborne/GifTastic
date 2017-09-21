@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+</head>
+
+
+<body>
+
+  <div class="container">
+    <h1>Animal Gifs!</h1>
+
+    <!-- Gif Images will get dumped here -->
+    <div id="animalImages"></div>
+
+    <!--Rendered buttons will get dumped here -->
+    <div id="animalButtons"></div>
+
+    <!-- form for searching the animals -->
+    <form id="animalForm">
+      <label for="animalSearch">Find Animals!</label>
+      <input type="text" id="animalSearch">
+
+      <!-- button triggers new animal gif to be added -->
+      <input id="addAnimal" type="submit" value="Search">
+    </form>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  //initial array of animals
+  var animals = ["dog", "cat", "horse", "goat"];
+
+</body>
+</html>
